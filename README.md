@@ -6,3 +6,11 @@ A portfolio with nomal html, css & js. I haven't added my project lists there ri
 ### Anthony & Iyaix are husband-wife.
 
 ### Inspired By Max's Portfolio. Also i've taken some images from there.
+
+
+
+
+
+
+
+### I rly dont like sensei.
