@@ -1,0 +1,268 @@
+
+
+.aboutme {
+width:40px;
+max-margin-left:20vh;
+margin-left:auto;
+}
+
+.aboutme:hover {
+width:60px;
+
+}
+
+
+.github {
+width:40px;
+
+}
+.github:hover {
+width:60px;
+}
+
+.vscode {
+width:40px;
+}
+.vscode:hover {
+width:60px;
+}
+
+.browser {
+width:40px;
+}
+
+.browser:hover {
+width:60px;
+}
+
+
+.leftimg {
+  width: 60%;
+  margin: auto;
+}
+.leftimg:hover {
+  width:65%;
+
+
+}
+
+
+
+
+/* left click buttons */
+
+	#popup9 a{
+			color : white;
+			text-decoration: none;
+		}
+		#popup9 a:hover{
+			
+			background: #ffffff0d;
+
+		}
+		
+		#popup9{
+			width:auto;
+			height:auto;
+			background: #ffffff5b;
+			position: absolute;
+			left:0;
+			top: 0;
+			display: none;
+			color:white;
+         border: 1px solid;
+         border-color: #ffffff8f;
+         border-radius: .375rem;
+         padding-top: .5rem;
+         padding-bottom: .5rem;
+         flex-direction: column;
+
+
+         
+		}
+
+      .leftbox {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: .5rem;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+        cursor: pointer;
+
+      }
+
+      .lefttext {
+        margin: 0;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+        font-family: inherit;
+        font-feature-settings: inherit;
+        font-variation-settings: inherit;
+        font-size: 100%;
+        font-weight: inherit;
+        line-height: inherit;
+        letter-spacing: inherit;
+        color: inherit;
+        margin: 0;
+        padding: 0;
+    
+      }
+
+
+.appicon {
+  margin: auto;
+  padding: auto;
+  width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Buttons */
+
+
+.btn {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 60px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  
+  .btn:last-child {
+    margin-right: 0;
+  }
+  
+  
+  .btn:before, .btn:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .close-btn {
+    background: #FF5D5B;
+    border: 2px solid #CF544D;
+  }
+  
+  .min-btn {
+    background: #FFBB39;
+    border: 2px solid #CFA64E;
+  }
+  
+  .max-btn {
+    background: #00CD4E;
+    border: 4px solid #0EA642;
+  }
+  
+  
+  
+  /* Close btn */
+  .close-btn:before, .close-btn:after {
+    width: 9px;
+    height: 70%;
+    background: #4cc0dd;
+  }
+  
+  
+  .close-btn:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .close-btn:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
+  
+  /* min btn */
+  .min-btn:before {
+    width: 70%;
+    height: 5px;
+    background: #ec7708;
+  }
+  
+  
+  /* max btn */
+  .max-btn:before {
+    width: 50%;
+    height: 50%;
+    background: #024D0F;
+  }
+  
+  .max-btn:after {
+    width: 9px;
+    height: 70%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    background: #00CD4E;
+  }
+  
+  
+  /* Hover function */
+  .btn:hover:before, .btn:hover:after {
+    top: 50%;
+    opacity: 1;
+  }
+  
+
+
+
+  /* Clock Style */
+
+.clock { 
+  font-size: 2em;
+  @media screen AND (min-width: 600px) {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+}
+span {
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  margin: .2em 0;
+  padding: .5em;
+}
+
+.flixup {
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.h-99 {
+   height: 1.85rem;
+}

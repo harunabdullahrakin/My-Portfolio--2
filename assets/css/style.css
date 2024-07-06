@@ -1,0 +1,473 @@
+/* Impostazioni Generali */
+
+body {
+	background-color: rgb(53, 53, 53);
+	background-image: url("https://unsplash.it/1920/1080/?random");
+	overflow-y: hidden;
+	overflow-x: hidden;
+	color: #ffffff;
+	height: 100%;
+
+  height: 100%;
+
+  /* Center and scale the image nicely */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/*  navbar */
+#navbar {
+	text-align: center;
+	opacity: 0.3;
+	background-color: #4debce;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 5%;
+
+}
+
+/* Elementi */
+#iconedescktop button,
+#iconedescktop button:focus,
+#iconedescktop button:active
+ {
+	background-color: transparent !important;
+	padding: 0;
+	border: 0;
+}
+button,
+button:focus,
+button:active
+ {
+	
+	padding: 0;
+	border: 0;
+}
+#popup,
+#popup2,
+#popup3,
+#popup4,
+#popup5,
+#popup6,
+#popup7,
+#popup8,
+#popup10,
+#popup11,
+#popup12{
+	opacity: 1;
+	max-height: 0px;
+	transition: max-height 0.3s, opacity 0.3s;
+}
+
+#popup.close,
+#popup2.close,
+#popup3.close,
+#popup4.close,
+#popup5.close,
+#popup6.close,
+#popup7.close,
+#popup8.close,
+#popup10.close,
+#popup11.close,
+#popup12.close{
+	display: none;
+	opacity: 0;
+	max-height: 0;
+}
+
+/* Elementi Pagina */
+#cronometro{
+	padding: 70px;
+}
+.buttoncronometro, .buttoncronometro:focus, .buttoncronometro:active {
+background-color: #ffffff !important;
+color: #1b1b1b !important;
+padding: 10px;
+}
+#minuti,
+#secondi,
+#millisecondi {
+	font-size: 40px;
+}
+.cronometroimput{
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+#url {
+    width: 725px;
+	color:black;
+}
+#sfondolink {
+	margin-left: 50px;
+	width:400px;
+
+}
+.sfondoico{
+	width: 150px;
+}
+
+.sfondourl {
+	padding-right: 29px !important;
+	padding-left: 40px;
+	margin-left:190px;
+	margin-top:20px;
+	border: 3px solid #1b1b1b;
+	border-radius: 15px;
+	}
+#internocalcolatrice,
+#internotxt,
+#internobackground,
+#internocronometro,
+.finestra,
+.finestra2 {
+	width: 500px;
+	height: 550px;
+	background-color: #1b1b1b;
+	margin: 0 auto;
+	border-radius: 10px;
+	border:1px solid #1b1b1b;
+	position: relative;
+}
+
+
+
+.finestra2 {
+	top: 20%;
+	left: 80%;
+	position: fixed;
+	box-shadow: 0 2px 30px rgb(83, 83, 83);
+}
+
+.finestra3 {
+	top: 5%;
+	left: 60%;
+	box-shadow: 0 2px 30px rgb(83, 83, 83);
+	background-color: #1b1b1b;
+	position: fixed;
+}
+
+.finestra4 {
+	top: 5%;
+	left: 10%;
+	box-shadow: 0 2px 30px rgb(83, 83, 83);
+	background-color:rgba(0,0,0, 0.5);;
+	
+	position: fixed;
+	border: 2px solid;
+	border-color: black;
+}
+
+.finestra {
+	box-shadow: 0 30px 20px rgb(83, 83, 83);
+
+	border-radius: 2%;
+	color: #ffffff;
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+}
+
+.finestra img {
+	padding: 2%;
+	padding-left: 7%;
+	padding-right: 5%;
+	float: left;
+}
+
+.finestra2 img {
+	padding: 2%;
+	padding-left: 7%;
+	padding-right: 5%;
+	float: left;
+}
+
+.finestra2 p {
+	font-size: small;
+	padding: 4%;
+}
+
+.finestra3 img {
+	padding: 2%;
+	padding-left: 7%;
+	padding-right: 5%;
+	float: left;
+}
+
+.finestra3 p {
+	font-size: small;
+	padding: 1%;
+}
+
+.finestra4 img {
+	padding: 0%;
+	padding-left: 10%;
+	padding-right: 1%;
+	float: left;
+	width: 3%;
+}
+
+.finestra4 p {
+	font-size: small;
+	padding: 1%;
+}
+
+.finestra p {
+	font-size: small;
+	padding: 4%;
+}
+
+#internotxt textarea {
+	background-color: #1b1b1b;
+	border: 0;
+	color: #ffffff;
+
+}
+
+#internocalcolatrice p {
+	font-size: 300%;
+}
+
+#windowsbuttonon {
+
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	border-radius: 3%;
+	padding: 1%;
+	position: fixed;
+
+	margin-left: 85%;
+	margin-top: -30%;
+
+
+	background-color: #303030;
+	box-shadow: 0 10px 30px rgb(83, 83, 83);
+	color: aliceblue;
+}
+
+#windowsbutton p {
+	margin-top: 30%;
+}
+
+
+#windows1,
+#windows2,
+#windows3 {
+	color: #8d8d8d;
+	border: 0;
+	float: right;
+	padding-top: 1%;
+	border-radius: 2%;
+	margin-left: 20px;
+
+	padding-left: 5px;
+	font-size: large;
+}
+
+#windows3:hover {
+	color: white;
+	border-radius: 0% 10% 0%;
+}
+
+#windows2:hover,
+#windows1:hover {
+	color: white;
+	border-radius: 0% 10% 0%;
+}
+
+#result {
+	height: 120px;
+
+	position: relative;
+	border-radius: 5px;
+}
+
+#history {
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 35px;
+	color: #ffffff;
+}
+
+#output {
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+}
+
+#keyboard {
+	height: 400px;
+	padding: 2%;
+}
+
+#keyboard img {
+	padding: 30%;
+	height: 35%;
+}
+
+.operator,
+.number,
+.empty {
+	width: 70px;
+	height: 50px;
+	margin: 1px;
+
+	float: left;
+	border-radius: 10%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.number,
+.empty {
+	background-color: #eaedef;
+}
+
+.number,
+.operator {
+	cursor: pointer;
+}
+
+.operator:active,
+.number:active {
+	font-size: 13px;
+}
+
+.operator:focus,
+.number:focus,
+.empty:focus {
+	outline: 0;
+}
+
+button:nth-child(1),
+button:nth-child(2),
+:nth-child(3),
+:nth-child(4),
+:nth-child(5),
+:nth-child(6),
+:nth-child(7),
+:nth-child(8),
+:nth-child(12),
+:nth-child(16),
+:nth-child(20) {
+	color: #ffffff;
+	font-size: 15px;
+	background-color: transparent;
+	font-weight: lighter;
+}
+
+button:nth-child(24) {
+	font-size: 10px;
+	font-weight: lighter;
+	background-color: #cc87e7;
+}
+
+button:nth-child(9),
+:nth-child(10),
+:nth-child(11),
+:nth-child(13),
+:nth-child(14),
+:nth-child(15),
+:nth-child(17),
+:nth-child(18),
+:nth-child(19),
+:nth-child(21),
+:nth-child(22),
+:nth-child(23) {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+button:nth-child(9):hover,
+:nth-child(10):hover,
+:nth-child(11):hover,
+:nth-child(13):hover,
+:nth-child(14):hover,
+:nth-child(15):hover,
+:nth-child(17):hover,
+:nth-child(18):hover,
+:nth-child(19):hover,
+:nth-child(21):hover,
+:nth-child(22):hover,
+:nth-child(23):hover {
+}
+
+button:nth-child(1):hover,
+button:nth-child(2):hover,
+:nth-child(3):hover,
+:nth-child(4):hover,
+:nth-child(5):hover,
+:nth-child(6):hover,
+:nth-child(7):hover,
+:nth-child(8):hover,
+:nth-child(12):hover,
+:nth-child(16):hover,
+:nth-child(20):hover {
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+button:nth-child(24):hover {
+	font-size: 10px;
+	font-weight: lighter;
+	background-color: #b073c9;
+}
+
+#mobile {
+	margin-top: 50%;
+	padding: 20%;
+	background-color: #dd3333;
+	font-size: large;
+}
+
+#mobile img {
+	margin: 20%;
+	width: 50%;
+}
+#calendario{
+	float: right;
+	width: 5%;
+	margin-top: 0.5%;
+	background-color: transparent;
+}
+#navbaricon{
+	float: right;
+	background-color: transparent;
+	width:50px;
+	margin-top: 10px;
+}
+@media screen and (max-width: 490px) {
+
+	#iconedescktop {
+		display: none;
+	}
+
+	#navbar {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 491px) {
+
+	#mobile {
+		display: none;
+	}
+}
+
+
+
+
+#preloader {
+	background: #000 url(../img/preloader.gif) no-repeat center center;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
