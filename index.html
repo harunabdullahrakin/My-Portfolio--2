@@ -111,15 +111,117 @@
 
       <!--    windows button -->
       <div id="popup2" class="close">
-         <div id="windowsbuttonon">
-            <p></p>
-            <hr>
-            <button onclick="top.close()">
-            <img src="assets/img/shutdown.svg" width="10%" style="margin:auto; margin-top: 5px;"  alt="Shut Down">
-            </button>
-         </div>
-      </div>
+        <div class="finestra5">
 
+            <div class="padding-start" style="display: grid;">
+                <div id="apps-container">
+                    <div class="app-container-header">
+                        <span>Harun's Start Menu</span>
+                        <div>
+                            <span>More Apps</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path></svg>
+                        </div>
+                    </div>
+                    <div id="second-app-container">
+                        <!-- 1 LINEA ORRIZONTALE -->
+                         
+                        <button class="starticon" onclick="toggleExpand('popup10')"><img src="assets/img/aboutme.png" alt="about me">
+                            <span>About Me</span>
+                        </button>
+                        <button class="starticon" onclick="toggleExpand('popup11')"><img src="assets/img/github.png" alt="github icon">
+                            <span>Github</span>
+                        </button>                        
+                        <button class="starticon" onclick="toggleExpand('popup7')"><img src="assets/img/discord.png" alt="edge icon">
+                            <span>Discord</span>
+                        </button>                       
+                        <button class="starticon" onclick="toggleExpand('popup5')"><img src="assets/img/bg.png" alt="edge icon">
+                            <span>Wallpapers</span>
+                        </button>                        <!-- 2 LINEA ORRIZONTALE -->
+                        <button class="starticon" onclick="toggleExpand('popup3')"><img src="assets/img/email.png" alt="edge icon">
+                            <span>Email</span>
+                        </button>                        
+                        <button class="starticon" onclick="toggleExpand('popup4')"><img src="assets/img/codeeditor.png" alt="edge icon">
+                            <span>Code Editor Pro</span>
+                        </button>                        
+                        <button class="starticon" onclick="toggleExpand('popup12')"><img src="assets/img/pacman.png" alt="edge icon">
+                            <span>Games</span>
+                        </button>                       
+                        <!-- 3 LINEA ORRIZONTALE -->
+                       
+                    </div>
+                </div>
+                <!-- la parte dove ci sono le CARTELLE -->
+                <div id="article-div">
+                    <div class="app-container-header">
+                        <span>Articoli consigliati</span>
+                        <div>
+                            <span>Altro</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path></svg>
+                        </div>
+                    </div>
+                    <div id="article-container">
+                        <!-- 1 LINEA ORIZZONTALE -->
+                        <div>
+                            <div><img src="./images/Photos-folder.ico" alt="folder microsoft"></div>
+                            <div>
+                                <div>Nome Cartella</div>
+                                <div>30 minuti fa</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div><img src="./images/Photos-folder.ico" alt="folder microsoft"></div>
+                            <div>
+                                <div>Nome Cartella</div>
+                                <div>30 minuti fa</div>
+                            </div>
+                        </div>
+                        <!-- 2 LINEA ORIZZONTALE -->
+                        <div>
+                            <div><img src="./images/Photos-folder.ico" alt="folder microsoft"></div>
+                            <div>
+                                <div>Nome Cartella</div>
+                                <div>30 minuti fa</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div><img src="./images/Photos-folder.ico" alt="folder microsoft"></div>
+                            <div>
+                                <div>Nome Cartella</div>
+                                <div>30 minuti fa</div>
+                            </div>
+                        </div>
+                        <!-- 3 LINEA ORIZZONTALE -->
+                        <div>
+                            <div><img src="./images/Photos-folder.ico" alt="folder microsoft"></div>
+                            <div>
+                                <div>Nome Cartella</div>
+                                <div>30 minuti fa</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div><img src="./images/Photos-folder.ico" alt="folder microsoft"></div>
+                            <div>
+                                <div>Nome Cartella</div>
+                                <div>30 minuti fa</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-start-section" style="display: flex;">
+                <button onclick="toggleExpand('popup10')"> <div class="nome-utente-start-section">
+                    <!-- icona UTENTE -->
+                    <img src="https://i.ibb.co/5sT0ZfJ/e.jpg" width="24" height="24"  viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);border: 2px transparent;border-radius: 10px;">
+                    <span>Harun Abdullah Rakin</span>
+                </div></button>
+                <div class="spegni-pc-start-section">
+                    <!-- icona SPEGNI -->
+                    <button onclick="top.close()" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M12 21c4.411 0 8-3.589 8-8 0-3.35-2.072-6.221-5-7.411v2.223A6 6 0 0 1 18 13c0 3.309-2.691 6-6 6s-6-2.691-6-6a5.999 5.999 0 0 1 3-5.188V5.589C6.072 6.779 4 9.65 4 13c0 4.411 3.589 8 8 8z"></path><path d="M11 2h2v10h-2z"></path></svg></button>
+                </div>
+            </div>
+            </div>
+
+         </div>
 
 
 
