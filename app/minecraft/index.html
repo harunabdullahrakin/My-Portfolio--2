@@ -1,0 +1,443 @@
+<html lang="en">
+
+
+    <div class="main-section" bis_skin_checked="1">
+
+        <div class="search" bis_skin_checked="1">
+            <input type="text" class="searchme" placeholder="Search your Minecraft Verson...">
+        </div>
+        <div class="ai-section" bis_skin_checked="1">
+            <a href="1.8.8/index.html">
+            <div class="cards" bis_skin_checked="1">
+                <div class="ai-image" bis_skin_checked="1">
+                    <img alt="Minecraft 1.8.8" src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/Minecraft-1.8-Adventure-Update-Trailer.jpg?q=50&fit=crop&w=767&h=431&dpr=1.5" loading="lazy">
+                </div>
+                <h4>Minecraft 1.8.8</h4>
+                
+            </div>
+        </a>
+            <a href="classic/index.html">
+            <div class="cards" bis_skin_checked="1">
+                
+                <div class="ai-image" bis_skin_checked="1">
+                    <img alt="Classic" src="/assets/img/minecraft.png" loading="lazy">
+                    
+                </div>
+                <h4>Minecraft 1.21/Latest</h4>
+
+                
+            </div></a>
+
+
+
+
+
+
+
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@520&family=Mochiy+Pop+One&family=Nunito:wght@200&family=Poppins:wght@400;500;600;700;900&family=REM:wght@300&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+body::before {
+  content: "";
+  display: block;
+  width: 700px;
+  height: 700px;
+  background-color: #feb95a40;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  left: -20%;
+  top: -28%;
+}
+.navbar {
+  width: 100%;
+  padding: 0 60px;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .image {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.image img {
+  width: 100%;
+  margin-right: 5px;
+}
+.image h4::first-letter {
+  color: #c0a6df;
+  font-size: 30px;
+}
+.main-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.main-section h1 {
+  color: #7c30d8;
+  font-size: 50px;
+}
+
+.main-section .topsection p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: gray;
+}
+
+.main-section .search {
+  margin-top: 20px;
+}
+.search input {
+  padding: 10px 10px;
+  width: 500px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #f1f1f1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  font-size: 17px;
+}
+
+.ai-section {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+  gap: 15px;
+  padding: 0 25px;
+}
+
+.ai-image {
+  width: 100%;
+}
+.ai-image img {
+  width: 100%;
+}
+.cards {
+  width: 300px;
+  height:300px;
+  padding: 9px;
+  min-height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: left;
+  cursor: pointer;
+}
+.cards h4 {
+  color: #fe9c15;
+  font-size: 20px;
+}
+.cards p {
+  font-size: 13px;
+  color: gray;
+}
+
+button {
+color: #fe9c15;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: underline;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 9px 21px;
+    margin: 13px 10px 7px;
+    cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  height: 40px;
+}
+
+.wtspContainer {
+  padding: 10px 15px;
+  width: 410px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f6f6f6;
+  border-radius: 8px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+form input {
+  outline: none;
+  border: none;
+  background: #fff;
+  padding: 10px 10px;
+}
+
+.wifi-section {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  padding-top: 10vh;
+  background: linear-gradient(180deg, #feb95a40, #feb95a40 100%, #feba5a15);
+  background-size: auto;
+  text-align: center;
+}
+
+.remover-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.imgsecti {
+  border: 5px dotted #fe9c15;
+  padding: 40px;
+  border-radius: 8px;
+}
+.uploadimage {
+  background: #fe9c15;
+  padding: 21px 0px;
+  width: 194px;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.phone-num {
+  display: flex;
+  margin-top: 15px;
+}
+
+@media (max-width: 982px) {
+  body::before {
+    content: "";
+    display: block;
+    width: 700px;
+    height: 700px;
+    background-color: #feb95a40;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    left: -30%;
+    top: -28%;
+  }
+}
+
+.instagram-section {
+  text-align: center;
+  margin-top: 20px;
+}
+.insta-input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #ddd;
+  font-size: 16px;
+}
+
+.unlock {
+  background-color: #fe9c15;
+  color: #7c30d8;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.cards:hover {
+    width: 20em;
+    background-color: rgb(123, 48, 184);
+}
+
+@media (max-width: 982px) {
+  body::before {
+    content: "";
+    display: block;
+    width: 700px;
+    height: 700px;
+    background-color: #feb95a40;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    left: -40%;
+    top: -28%;
+  }
+}
+
+@media (max-width: 766px) {
+  body::before {
+    content: "";
+    display: block;
+    width: 700px;
+    height: 700px;
+    background-color: #feb95a40;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    left: -50%;
+    top: -28%;
+  }
+}
+@media (max-width: 766px) {
+  body::before {
+    content: "";
+    display: block;
+    width: 700px;
+    height: 700px;
+    background-color: #feb95a40;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    left: -60%;
+    top: -28%;
+  }
+}
+
+@media (max-width: 565px) {
+  body::before {
+    content: "";
+    display: block;
+    width: 600px;
+    height: 600px;
+    background-color: #feb95a40;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    left: -70%;
+    top: -28%;
+  }
+}
+
+@media (max-width: 540px) {
+  body::before {
+    content: "";
+    display: block;
+    width: 600px;
+    height: 600px;
+    background-color: #feb95a40;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    left: -70%;
+    top: -28%;
+  }
+
+  .main-section h1 {
+    color: #7c30d8;
+    font-size: 40px;
+  }
+  .search input {
+    padding: 10px 10px;
+    width: 90%;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #f1f1f1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 540px) {
+  body::before {
+    content: "";
+    display: block;
+    width: 600px;
+    height: 600px;
+    background-color: #feb95a40;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    left: -80%;
+    top: -28%;
+  }
+  .main-section h1 {
+    color: #7c30d8;
+    font-size: 35px;
+  }
+  .main-section p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: gray;
+  }
+  .insta-input {
+    width: 90%;
+  }
+  button {
+    margin: 0px 10px 7px;
+}
+}
+label {
+  margin-left: 10px;
+}
+
+@media (max-width: 450px) {
+  .wtspContainer {
+    width: 90%;
+  }
+  .wtspContainer h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 384px) {
+  body::before {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 500px;
+    background-color: #feb95a40;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    left: -90%;
+    top: -28%;
+  }
+  .main-section h1 {
+    color: #7c30d8;
+    font-size: 30px;
+  }
+}
+
+    </style>
+</body></html>
